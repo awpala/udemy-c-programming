@@ -1,0 +1,4 @@
+# regex to ignore compiled object output files
+*
+!*.*
+!*/
