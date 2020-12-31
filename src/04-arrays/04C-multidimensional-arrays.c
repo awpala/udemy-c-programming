@@ -36,7 +36,7 @@ int main()
             }
         }
     }
-    printf("\nCumulative sum is %d", sum);
+    printf("\nCumulative sum is %d\n", sum);
 
     // N.B. higher-order arrays generalize similarly (i.e., [...][...][...][...]..., etc.)
 
