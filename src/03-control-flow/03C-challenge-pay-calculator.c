@@ -15,7 +15,7 @@ int main()
     double taxes = 0.0;
     double netPay = 0.0;
 
-    // From the terminal, run as: ./03C-challenge-pay-calculator 45
+    // From the terminal, run as: ./03C-challenge-pay-calculator
     printf("Please enter the number of hours worked this week: ");
 
     scanf("%d", &hours);
