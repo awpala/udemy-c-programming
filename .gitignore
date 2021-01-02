@@ -3,3 +3,6 @@
 *
 !*.*
 !*/
+
+# ignore vscode config files
+*.json
