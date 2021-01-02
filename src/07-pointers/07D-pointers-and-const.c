@@ -6,7 +6,7 @@ int main()
     long value = 9999L;
     const long *pValue = &value; // pValue cannot change value from 9999L
     // *pValue = 8888L; // error!
-    value = 7777L; // valid -- only pValue is const, not value
+    value = 7777L; // valid -- only *pValue is const, not value
     long number = 8888L;
     pValue = &number; // okay to change the address value stored in pValue, just not *pValue
 
@@ -21,7 +21,7 @@ int main()
 
     // constant pointer to a constant
     int val = 25;
-    const int *const pVal = &val; // neither val's value nor pVal's value can be changed by pVal
+    const int *const pVal = &val; // neither *pVal's value nor pVal's value can be changed
     val = 30; // this is still permissible, however (to prevent this, declare const int val = 25; instead)
 
     return 0;
