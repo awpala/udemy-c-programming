@@ -6,7 +6,7 @@ int main(void)
     int size;
     char* text = NULL;
 
-    // From the terminal, run as: ./07L-using-dynamic-memory
+    // From the terminal, run as: ./07L-challenge-using-dynamic-memory
     printf("Enter limit of the text: ");
     scanf("%d", &size);
 
