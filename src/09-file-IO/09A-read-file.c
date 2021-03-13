@@ -7,7 +7,7 @@ int main()
     // read file character-wise
     int c;
 
-    fp = fopen("file.txt", "r");
+    fp = fopen("09A-file.txt", "r");
 
     if (fp == NULL) {
         perror("Error in opening file");
@@ -25,7 +25,7 @@ int main()
     // read file by string
     char str[60];
 
-    fp = fopen("file.txt", "r");
+    fp = fopen("09A-file.txt", "r");
 
     if (fp == NULL) {
         perror("Error in opening file");
